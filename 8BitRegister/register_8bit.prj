@@ -1,0 +1,2 @@
+verilog work "one_bit_register.v"
+verilog work "register_8bit.v"

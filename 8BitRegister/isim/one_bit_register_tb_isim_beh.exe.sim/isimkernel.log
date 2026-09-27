@@ -1,0 +1,10 @@
+Command line:
+   one_bit_register_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51385
+
+Fri Sep 25 05:29:45 2026
+
+
+ Elaboration Time: 0.05 sec
