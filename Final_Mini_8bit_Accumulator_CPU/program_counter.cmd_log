@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "/home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/program_counter.xst" -ofn "/home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/program_counter.syr" 

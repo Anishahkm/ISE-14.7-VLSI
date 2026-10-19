@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/tb_program_counter_isim_beh.exe" -prj "/home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/tb_program_counter_beh.prj" "work.tb_program_counter" 
