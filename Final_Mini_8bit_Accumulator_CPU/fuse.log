@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/tb_program_counter_isim_beh.exe -prj /home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/tb_program_counter_beh.prj work.tb_program_counter 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/program_counter.vhd" into library work
+Parsing VHDL file "/home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/tb_program_counter.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96828 KB
+Fuse CPU Usage: 720 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity program_counter [program_counter_default]
+Compiling architecture behavioral of entity tb_program_counter
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Built simulation executable /home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/tb_program_counter_isim_beh.exe
+Fuse Memory Usage: 111468 KB
+Fuse CPU Usage: 770 ms
+GCC CPU Usage: 940 ms
