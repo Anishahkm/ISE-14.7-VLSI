@@ -1,0 +1,42 @@
+ISim log file
+Running: /home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/tb_mini_cpu_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/tb_mini_cpu_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is ise, on host localhost.localdomain.
+INFO:Security:15 - A feature for ISIM was found but is for the wrong hostid.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+Invalid host.
+ The hostid of this system does not match the hostid
+ specified in the license file.
+Feature:       ISIM
+Hostid:        08002768c935
+License path:  /home/ise/.Xilinx/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//data/*.lic:/opt/Xilinx/14.7/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//coregen/core_licenses/XilinxFree.lic:/opt/Xilinx/14.7/ISE_DS/EDK/data/core_licenses/Xilinx.lic:
+FLEXnet Licensing error:-9,57
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_mini_cpu/UUT/U_ROM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 16 ns: Note: Cycle 1 | PC = 1 | Q = 255 | Z = '0' (/tb_mini_cpu/).
+at 26 ns: Note: Cycle 2 | PC = 2 | Q = 0 | Z = '1' (/tb_mini_cpu/).
+at 36 ns: Note: Cycle 3 | PC = 5 | Q = 0 | Z = '1' (/tb_mini_cpu/).
+at 46 ns: Note: Cycle 4 | PC = 6 | Q = 17 | Z = '0' (/tb_mini_cpu/).
+at 56 ns: Note: Cycle 5 | PC = 7 | Q = 34 | Z = '0' (/tb_mini_cpu/).
+at 66 ns: Note: Cycle 6 | PC = 8 | Q = 34 | Z = '0' (/tb_mini_cpu/).
+at 76 ns: Note: Cycle 7 | PC = 9 | Q = 68 | Z = '0' (/tb_mini_cpu/).
+at 86 ns: Note: Cycle 8 | PC = 10 | Q = 68 | Z = '0' (/tb_mini_cpu/).
+# exit 0

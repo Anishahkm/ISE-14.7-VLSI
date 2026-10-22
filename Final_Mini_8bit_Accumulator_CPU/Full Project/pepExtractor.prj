@@ -1,0 +1,7 @@
+work	"accumulator.vhd"
+work	"alu.vhd"
+work	"control_unit.vhd"
+work	"mini_cpu.vhd"
+work	"program_counter.vhd"
+work	"program_rom.vhd"
+work	"zero_flag.vhd"

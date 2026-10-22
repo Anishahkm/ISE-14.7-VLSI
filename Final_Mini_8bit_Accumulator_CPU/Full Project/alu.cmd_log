@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/alu.xst" -ofn "/home/ise/ALU/Final_Mini_8bit_Accumulator_CPU/alu.syr" 

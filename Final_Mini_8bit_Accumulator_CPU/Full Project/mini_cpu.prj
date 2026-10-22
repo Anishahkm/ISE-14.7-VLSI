@@ -1,0 +1,7 @@
+vhdl work "program_counter.vhd"
+vhdl work "zero_flag.vhd"
+vhdl work "program_rom.vhd"
+vhdl work "control_unit.vhd"
+vhdl work "alu.vhd"
+vhdl work "accumulator.vhd"
+vhdl work "mini_cpu.vhd"
